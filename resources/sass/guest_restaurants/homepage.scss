@@ -1,0 +1,321 @@
+.guest-restaurants-card-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    .restaurant-name-container {
+        height: 80px;
+    }
+    .restaurant-types-container {
+        height: 40px;
+    }
+}
+form{
+    max-width: 100%;
+}
+
+.background-search {
+    background: linear-gradient(-4deg, $hero-color2 50%, $hero-color1 50%);
+    background-size: contain;
+    background-repeat: round;
+    width: 100%;
+}
+
+.jumbo-box {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-image: url("../public/img/jumbotron.svg");
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.front-text {
+    display: bvl;
+    h1 {
+        color: #440071;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+}
+
+.alert-style {
+    margin: 12px;
+    width: 200px;
+    position: absolute;
+    top: 14%;
+    right: 36%;
+}
+
+.margin-20 {
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+.bg-white {
+    background-color: wheat;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: wheat;
+}
+
+.position-bar {
+    background-color: #00ccbc;
+    border-color: #00ccbc;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #00ccaa;
+        border-color: #00ccbc;
+    }
+}
+
+.position-stop-f {
+    background-color: #00ccbc;
+    border-color: #00ccbc;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    &:hover {
+        background-color: #00ccaa;
+        border-color: #00ccbc;
+    }
+}
+
+//lato blade
+.text-link {
+    a {
+        color: #00a3a4;
+        text-decoration: none;
+    }
+}
+
+.home-page-container {
+    padding: 24px 0;
+}
+
+.white-bg {
+    width: 100%;
+}
+
+.pink-bg {
+    background-color: #ffeae4;
+    width: 100%;
+}
+
+.white-bg-text {
+    padding-top: 12px;
+    h1,
+    h2 {
+        font-weight: 800;
+        color: #00ccbc;
+        margin-left: 47px;
+    }
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.burgher {
+    background-image: url("../public/img/restaurant_homepage/burgher-430.jpg");
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .food-text {
+        color: white;
+        text-align: center;
+    }
+}
+
+.fruits {
+    background-image: url("../public/img/restaurant_homepage/fruttina-430.jpg");
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .food-text {
+        color: white;
+        text-align: center;
+    }
+}
+
+.vegetable {
+    background-image: url("../public/img/restaurant_homepage/verdurine-430.jpg");
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .food-text {
+        color: white;
+        text-align: center;
+    }
+}
+
+.ravioli {
+    background-image: url("../public/img/restaurant_homepage/raviolini-430.jpg");
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .food-text {
+        color: white;
+        text-align: center;
+        h1 {
+            font-weight: 700;
+            font-size: 26px;
+        }
+    }
+}
+
+.deliveroo-color {
+    background-color: #00ccbc;
+    color: #ffeae4;
+    margin: 0px 4px;
+}
+
+//sezione input
+.toggle {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+    .form-check-inline{
+        margin-right: 0;
+    }
+    .hide {
+        position: absolute;
+        left: -100vw;
+        z-index: -100;
+        opacity: 0;
+    }
+    label{
+        margin-bottom: 0;
+        padding: 9px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i{
+            padding-right: 5px;
+        }
+    }
+    .label {
+        margin: 5px;
+        background-color: #6e3c8f;
+        border: none;
+        border-radius: 12px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        transition: 0.3s;
+        &:hover {
+            cursor: pointer;
+            background-color: #2ec67a;
+        }
+        &:checked {
+            background-color: #2ec67a;
+        }
+    }
+    .color {
+        background-color: #2ec67a;
+    }
+}
+
+.best-text {
+    color: #440071;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.centerme {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 24px;
+    padding-top: 12px;
+}
+
+.piattini {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.piatti-img {
+    margin: 5px;
+    width: 175px;
+    height: 121px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.spazio {
+    margin-bottom: 18px;
+    h1 {
+        text-align: center;
+    }
+}
+
+.line {
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #440071;
+    margin-top: 40px;
+}
+
+.marcos-link {
+    border: none;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+    &:hover {
+        position: relative;
+        background: linear-gradient(296deg, #00ccbb 7%, #ffeae4 30%);
+        -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 767px) {
+  form{
+        max-width: 100%;
+    }
+    .hide-m {
+        display: none;
+    }
+    .burgher {
+        margin: 12px 0;
+    }
+    .fruits {
+        margin: 12px 0;
+    }
+    .vegetable {
+        margin: 12px 0;
+    }
+    .ravioli {
+        margin: 12px 0;
+    }
+    .jumbo-box {
+        background-image: none;
+    }
+}
+
+//tentativo animazioni dei ristoranti 
+.fade{
+    transition: opacity 1s;
+  }
+.fade-enter-active,
+.fade-leave-active{transition: opacity .5s}
+    
+
+.fade-enter,
+.fade-leave-to{opacity: 0}
+
